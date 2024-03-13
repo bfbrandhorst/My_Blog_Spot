@@ -1,0 +1,29 @@
+body,
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* global level styling */
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+    background-color: aliceblue;
+    color: darkslateblue;
+    margin: 20px;
+}
+
+/* card styling */
+.card {
+    border-radius: 5px;
+    box-shadow: 6px 3px 3px rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+}
+
+.BlogContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
