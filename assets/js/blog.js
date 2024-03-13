@@ -11,9 +11,9 @@ for (let i = 0; i < blogData.length; i++) {
 
     blogCard += `
     <div class= "card">
-    <h2>${blogData[i].title}</h2>
-    <p> ${blogData[i].content}</p>
-    <h2> ${blogData[i].username}</h2>
+    <h2>${blogData[i].username}</h2>
+    <p> ${blogData[i].title}</p>
+    <h2> ${blogData[i].content}</h2>
     </div>
     `
     BlogContainer.innerHTML = blogCard

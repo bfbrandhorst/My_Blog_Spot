@@ -8,7 +8,7 @@ function createAndRenderBlog() {
     var contentInput = document.getElementById("content").value;
 
     if (usernameInput === "", titleInput === "", contentInput === "") {
-        alert("Form cannot be empty")
+        alert("Whoops, please complete the form!")
         return null
     } else {
         const blog = {
