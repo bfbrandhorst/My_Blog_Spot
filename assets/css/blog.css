@@ -1,7 +1,24 @@
-body,
 h1 {
+    display: flex;
+    justify-content: flex-start;
     margin: 0;
     padding: 0;
+    text-align: left;
+    color: plum;
+    font-size: 60px;
+}
+
+.back-button {
+    display: flex;
+    justify-content: flex-end;
+    background-color: darkslategray;
+    color: plum;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
 }
 
 /* global level styling */
@@ -26,4 +43,17 @@ body {
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
+}
+
+footer,
+footer a {
+    color: darkslateblue;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 80px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
