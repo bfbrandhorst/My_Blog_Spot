@@ -3,18 +3,18 @@ const titleInput = document.getElementById('title');
 const contentInput = document.getElementById('content');
 
 function createAndRenderBlog() {
-    var usernameInput = document.getElementById("username").value;
-    var titleInput = document.getElementById("title").value;
-    var contentInput = document.getElementById("content").value;
+    var usernameInput = document.getElementById("username");
+    var titleInput = document.getElementById("title");
+    var contentInput = document.getElementById("content");
 
-    if (usernameInput === "", titleInput === "", contentInput === "") {
+    if (usernameInput.value === "" || titleInput.value === "" || contentInput.value === "") {
         alert("Whoops, please complete the form!")
         return null
     } else {
         const blog = {
-            username: usernameInput,
-            title: titleInput,
-            content: contentInput,
+            username: usernameInput.value,
+            title: titleInput.value,
+            content: contentInput.value,
         };
         console.log(blog)
         const blogs = JSON.parse(localStorage.getItem('blogs')) || [];
@@ -32,5 +32,5 @@ document.getElementById("blogForm").addEventListener("submit", function (event) 
     console.log("click");
     createAndRenderBlog();
     document.getElementById("username", "title", "content").appendChild(newEntry);
-    document.getElementById("username", "title", "content").value = "";
+
 })
