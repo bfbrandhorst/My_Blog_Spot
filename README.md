@@ -7,5 +7,9 @@ Github repository link: https://github.com/bfbrandhorst/My_Blog_Spot
 Deployed site link: 
 
 [Preview image of blog submission form](./assets/images/blogSubmissionForm.png)
+
+
 [Preview image of My_Blog_Spot](./assets/images/blogEntryPage.png)
+
+
 [Preview image of locally stored entries](./assets/images/blogInspectStorage.png)
