@@ -1,3 +1,14 @@
+#darkModeToggle {
+    background-color: darkslategray;
+    color: plum;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
 h1 {
     display: flex;
     justify-content: flex-start;
@@ -9,8 +20,6 @@ h1 {
 }
 
 .back-button {
-    display: flex;
-    justify-content: right;
     background-color: darkslategray;
     color: plum;
     padding: 5px 10px;
