@@ -4,7 +4,7 @@ My personal blog is designed to showcase a user's thoughts and experiences. When
 
 Github repository link: https://github.com/bfbrandhorst/My_Blog_Spot
 
-Deployed site link: 
+Deployed site link: https://bfbrandhorst.github.io/My_Blog_Spot/
 
 [Preview image of blog submission form](./assets/images/blogSubmissionForm.png)
 
